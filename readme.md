@@ -11,15 +11,19 @@
     b) How different classifiers (e.g SVM, Naive Bayes, KNN) perform on corrected imbalanced datasets?
 
 4) Proposed dataset
+    
     The main dataset we will use is the provided Civil War Data (CWD) dataset (`SambnisImp.csv`). It measures from 1945 to 2000 whether a civil war occured in a given country,       in  a given year. We will then use sampling methods on the dataset to try to overcome the dataset unbalance.
 
 5) Methods
+
   a) Imbalanced data correction 
+  
         i) Boosting techniques (AdaBoost/Gradient Boosting)
        ii) Sampling methods (Oversampling/Undersampling)
       iii) Cost-Sensitive Learning (upweighting/down-weighting)
   
   b) Classifiers to test
+  
         i) Logistic Regression
        ii) KNN
       iii) Naive Bayes
@@ -28,12 +32,14 @@
   c) Cross validation
   
   d) Assessment Metrics
+  
         i) Confusion matrix
        ii) F1 score
       iii) Receiver operating characteristic curve
        iv) AUC score
 
 6) Proposed timeline
+
   a) 1 week for data preprocessing, coming up with the algorithm and coding it. 
   
   b) 1 week for performance evaluation and running tests.
@@ -41,6 +47,7 @@
   c) 1 week for plotting results, preparing data story and pitching video.
 
 7) Organization within the team
+
   a) Constantin: Problem formulation, coming up with the algorithm, crawling the data, preliminary data analysis.
   
   b) Graziano: Coding up the algorithm, plotting graphs during data analysis, running tests, tabulating final results.
@@ -48,6 +55,7 @@
   c) Yasser: Testing with different classifiers, writing up the data story/report, preparing the pitching video.
 
 8) Questions for TAs (optional)
-  a) Which of the 3 models should we implement our extension and evaluate on? 1) Fearon and Laitin (2003), 2: Collier and Hoeffler (2004), 3: Hegre and Sambanis (2006) or on all   the 3 models?
+
+    a) Which of the 3 models should we implement our extension and evaluate on? 1) Fearon and Laitin (2003), 2: Collier and Hoeffler (2004), 3: Hegre and Sambanis (2006) or on         all   the 3 models?
   
-  b) Do you have suggestions for data sampling methods? From your expertise do you know if we should better focus on some methods not all, because they generally work better?
+    b) Do you have suggestions for data sampling methods? From your expertise do you know if we should better focus on some methods not all, because they generally work better?
