@@ -40,19 +40,19 @@
 
 6) Proposed timeline
 
-  a) 1 week for data preprocessing, coming up with the algorithm and coding it. 
+    a) 1 week for data preprocessing, coming up with the algorithm and coding it. 
   
-  b) 1 week for performance evaluation and running tests.
+    b) 1 week for performance evaluation and running tests.
   
-  c) 1 week for plotting results, preparing data story and pitching video.
+    c) 1 week for plotting results, preparing data story and pitching video.
 
 7) Organization within the team
 
-  a) Constantin: Problem formulation, coming up with the algorithm, crawling the data, preliminary data analysis.
+    a) Constantin: Problem formulation, coming up with the algorithm, crawling the data, preliminary data analysis.
   
-  b) Graziano: Coding up the algorithm, plotting graphs during data analysis, running tests, tabulating final results.
+    b) Graziano: Coding up the algorithm, plotting graphs during data analysis, running tests, tabulating final results.
   
-  c) Yasser: Testing with different classifiers, writing up the data story/report, preparing the pitching video.
+    c) Yasser: Testing with different classifiers, writing up the data story/report, preparing the pitching video.
 
 8) Questions for TAs (optional)
 
