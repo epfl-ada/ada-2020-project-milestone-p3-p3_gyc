@@ -7,6 +7,7 @@
 3) Research Questions
 
     a) How correcting imbalanced datasets through boosting, sampling, and cost-sensitive methods can help improve the predictive performance of a classifier?
+    
     b) How different classifiers (e.g SVM, Naive Bayes, KNN) perform on corrected imbalanced datasets?
 
 4) Proposed dataset
@@ -23,7 +24,9 @@
        ii) KNN
       iii) Naive Bayes
        iv) SVM
+       
   c) Cross validation
+  
   d) Assessment Metrics
         i) Confusion matrix
        ii) F1 score
@@ -32,14 +35,19 @@
 
 6) Proposed timeline
   a) 1 week for data preprocessing, coming up with the algorithm and coding it. 
+  
   b) 1 week for performance evaluation and running tests.
+  
   c) 1 week for plotting results, preparing data story and pitching video.
 
 7) Organization within the team
   a) Constantin: Problem formulation, coming up with the algorithm, crawling the data, preliminary data analysis.
+  
   b) Graziano: Coding up the algorithm, plotting graphs during data analysis, running tests, tabulating final results.
+  
   c) Yasser: Testing with different classifiers, writing up the data story/report, preparing the pitching video.
 
 8) Questions for TAs (optional)
   a) Which of the 3 models should we implement our extension and evaluate on? 1) Fearon and Laitin (2003), 2: Collier and Hoeffler (2004), 3: Hegre and Sambanis (2006) or on all   the 3 models?
+  
   b) Do you have suggestions for data sampling methods? From your expertise do you know if we should better focus on some methods not all, because they generally work better?
