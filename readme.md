@@ -1,10 +1,8 @@
 1) Title: Binary Classification Performance Evaluation with Data Correction
 
-
 2) Abstract
 
-The article shows that Random Forests have a significantly higher predictive accuracy than logistic regression models. While the authors focus on comparing the performance of statistical methods, namely Random Forests and three logistic regression versions in predicting civil war onset in out-of-sample data, we will focus on improving the predictive performance of civil war onset. In this extension, we will explore methods to overcome the unbalance in the data classes. First, we will apply data correction methods such as boosting or sampling on the same dataset used in the article, expecting to improve the logistic regression model’s accuracy. Then we will explore other classifiers aiming to get the best possible predictive results on the corrected data. Cross validation is applied here as it produces unbiased and accurate error rates. In assessing the predictive performance, we use the metrics, Confusion matrix, F1 score, Receiver Operating Characteristic Curve and AUC score.
-
+    The article shows that Random Forests have a significantly higher predictive accuracy than logistic regression models. While the authors focus on comparing the performance       of statistical methods, namely Random Forests and three logistic regression versions in predicting civil war onset in out-of-sample data, we will focus on improving the         predictive performance of civil war onset. In this extension, we will explore methods to overcome the unbalance in the data classes. First, we will apply data correction         methods such as boosting or sampling on the same dataset used in the article, expecting to improve the logistic regression model’s accuracy. Then we will explore other           classifiers aiming to get the best possible predictive results on the corrected data. Cross validation is applied here as it produces unbiased and accurate error rates. In       assessing the predictive performance, we use the metrics, Confusion matrix, F1 score, Receiver Operating Characteristic Curve and AUC score.
 
 3) Research Questions
 
@@ -16,22 +14,21 @@ The article shows that Random Forests have a significantly higher predictive acc
 
 5) Methods
   a) Imbalanced data correction 
-    i) Boosting techniques (AdaBoost/Gradient Boosting)
-   ii) Sampling methods (Oversampling/Undersampling)
-  iii) Cost-Sensitive Learning (upweighting/down-weighting)
+        i) Boosting techniques (AdaBoost/Gradient Boosting)
+       ii) Sampling methods (Oversampling/Undersampling)
+      iii) Cost-Sensitive Learning (upweighting/down-weighting)
   
   b) Classifiers to test
-    i) Logistic Regression
-   ii) KNN
-  iii) Naive Bayes
-   iv) SVM
-
+        i) Logistic Regression
+       ii) KNN
+      iii) Naive Bayes
+       iv) SVM
   c) Cross validation
   d) Assessment Metrics
-    i) Confusion matrix
-   ii) F1 score
-  iii) Receiver operating characteristic curve
-   iv) AUC score
+        i) Confusion matrix
+       ii) F1 score
+      iii) Receiver operating characteristic curve
+       iv) AUC score
 
 6) Proposed timeline
   a) 1 week for data preprocessing, coming up with the algorithm and coding it. 
