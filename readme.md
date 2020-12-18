@@ -1,14 +1,14 @@
-1) Title: Binary Classification Performance Evaluation with Data Correction
+1) Title: Towards a better prediction of civil wars - Correcting an imbalanced dataset
 
 2) Abstract
 
-    The article shows that Random Forests have a significantly higher predictive accuracy than logistic regression models. While the authors focus on comparing the performance       of statistical methods, namely Random Forests and three logistic regression versions in predicting civil war onset in out-of-sample data, we will focus on improving the         predictive performance of civil war onset. In this extension, we will explore methods to overcome the unbalance in the data classes. First, we will apply data correction         methods such as boosting or sampling on the same dataset used in the article, expecting to improve the logistic regression model’s accuracy. Then we will explore other           classifiers aiming to get the best possible predictive results on the corrected data. Cross validation is applied here as it produces unbiased and accurate error rates. In       assessing the predictive performance, we use the metrics, Confusion matrix, F1 score, Receiver Operating Characteristic Curve and AUC score.
+    The article shows that Random Forests have a significantly higher predictive accuracy than logistic regression models. While the authors focus on comparing the performance       of statistical methods, namely Random Forests and three logistic regression versions in predicting civil war onset in out-of-sample data, we will focus on improving the         predictive performance of civil war onset. In this extension, we will explore methods to overcome the unbalance in the data classes. First, we will apply data correction         methods such as boosting and sampling on the same dataset used in the article, expecting to improve the logistic regression model’s accuracy. Then we will explore other           classifiers aiming to get the best possible predictive results on the corrected data. Cross validation is applied here as it produces unbiased and accurate error rates. In       assessing the predictive performance, we use the metrics F1 score, Receiver Operating Characteristic Curve and AUC score.
 
 3) Research Questions
 
     a) How correcting imbalanced datasets through boosting, sampling, and cost-sensitive methods can help improve the predictive performance of a classifier?
     
-    b) How different classifiers (e.g SVM, Naive Bayes, KNN) perform on corrected imbalanced datasets?
+    b) How different classifiers (e.g SVM, KNN) perform on corrected imbalanced datasets?
 
 4) Proposed dataset
     
@@ -20,23 +20,21 @@
   
         i) Boosting techniques (AdaBoost/Gradient Boosting)
        ii) Sampling methods (Oversampling/Undersampling)
-      iii) Cost-Sensitive Learning (upweighting/down-weighting)
   
   b) Classifiers to test
   
         i) Logistic Regression
-       ii) KNN
-      iii) Naive Bayes
+       ii) Random Forest
+      iii) KNN
        iv) SVM
        
   c) Cross validation
   
   d) Assessment metrics
   
-        i) Confusion matrix
-       ii) F1 score
-      iii) Receiver operating characteristic curve
-       iv) AUC score
+        i) F1 score
+       ii) Receiver operating characteristic curve
+      iii) AUC score
 
 6) Proposed timeline
 
@@ -48,11 +46,11 @@
 
 7) Organization within the team
 
-    a) Constantin: Problem formulation, coming up with the algorithm, crawling the data, preliminary data analysis.
+    a) Constantin: Problem formulation, coming up with the algorithm, crawling the data, writing up the data story/report.
   
-    b) Graziano: Coding up the algorithm, plotting graphs during data analysis, running tests, tabulating final results.
+    b) Graziano: Coding up the algorithm, preliminary data analysis, plotting graphs during data analysis, running tests.
   
-    c) Yasser: Testing with different classifiers, writing up the data story/report, preparing the pitching video.
+    c) Yasser: plotting the graphs, Testing with different classifiers, tabulating final results, preparing the pitching video.
 
 8) Questions for TAs (optional)
 
