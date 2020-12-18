@@ -25,18 +25,17 @@
   b) Classifiers to test
   
         i) Logistic Regression
-       ii) KNN
-      iii) Naive Bayes
+       ii) Random Forest
+      iii) KNN
        iv) SVM
        
   c) Cross validation
   
   d) Assessment Metrics
   
-        i) Confusion matrix
-       ii) F1 score
-      iii) Receiver operating characteristic curve
-       iv) AUC score
+        i) F1 score
+       ii) Receiver operating characteristic curve
+      iii) AUC score
 
 6) Proposed timeline
 
@@ -48,11 +47,11 @@
 
 7) Organization within the team
 
-    a) Constantin: Problem formulation, coming up with the algorithm, crawling the data, preliminary data analysis.
+    a) Constantin: Problem formulation, coming up with the algorithm, crawling the data, writing up the data story/report.
   
-    b) Graziano: Coding up the algorithm, plotting graphs during data analysis, running tests, tabulating final results.
+    b) Graziano: Coding up the algorithm, preliminary data analysis, plotting graphs during data analysis, running tests.
   
-    c) Yasser: Testing with different classifiers, writing up the data story/report, preparing the pitching video.
+    c) Yasser: plotting the graphs, Testing with different classifiers, tabulating final results, preparing the pitching video.
 
 8) Questions for TAs (optional)
 
