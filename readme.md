@@ -31,7 +31,7 @@
        
   c) Cross validation
   
-  d) Assessment Metrics
+  d) Assessment metrics
   
         i) Confusion matrix
        ii) F1 score
