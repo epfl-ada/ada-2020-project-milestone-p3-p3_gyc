@@ -2,13 +2,13 @@
 
 2) Abstract
 
-    The article shows that Random Forests have a significantly higher predictive accuracy than logistic regression models. While the authors focus on comparing the performance       of statistical methods, namely Random Forests and three logistic regression versions in predicting civil war onset in out-of-sample data, we will focus on improving the         predictive performance of civil war onset. In this extension, we will explore methods to overcome the unbalance in the data classes. First, we will apply data correction         methods such as boosting or sampling on the same dataset used in the article, expecting to improve the logistic regression model’s accuracy. Then we will explore other           classifiers aiming to get the best possible predictive results on the corrected data. Cross validation is applied here as it produces unbiased and accurate error rates. In       assessing the predictive performance, we use the metrics, Confusion matrix, F1 score, Receiver Operating Characteristic Curve and AUC score.
+    The article shows that Random Forests have a significantly higher predictive accuracy than logistic regression models. While the authors focus on comparing the performance       of statistical methods, namely Random Forests and three logistic regression versions in predicting civil war onset in out-of-sample data, we will focus on improving the         predictive performance of civil war onset. In this extension, we will explore methods to overcome the unbalance in the data classes. First, we will apply data correction         methods such as boosting and sampling on the same dataset used in the article, expecting to improve the logistic regression model’s accuracy. Then we will explore other           classifiers aiming to get the best possible predictive results on the corrected data. Cross validation is applied here as it produces unbiased and accurate error rates. In       assessing the predictive performance, we use the metrics, Confusion matrix, F1 score, Receiver Operating Characteristic Curve and AUC score.
 
 3) Research Questions
 
     a) How correcting imbalanced datasets through boosting, sampling, and cost-sensitive methods can help improve the predictive performance of a classifier?
     
-    b) How different classifiers (e.g SVM, Naive Bayes, KNN) perform on corrected imbalanced datasets?
+    b) How different classifiers (e.g SVM, KNN) perform on corrected imbalanced datasets?
 
 4) Proposed dataset
     
@@ -20,7 +20,6 @@
   
         i) Boosting techniques (AdaBoost/Gradient Boosting)
        ii) Sampling methods (Oversampling/Undersampling)
-      iii) Cost-Sensitive Learning (upweighting/down-weighting)
   
   b) Classifiers to test
   
